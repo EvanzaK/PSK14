@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/index.css */
+
+/* Mengatur font global */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f5f7;  /* Warna latar belakang halaman */
+  color: #333;
+}
+
+/* Menambahkan header lebih menarik */
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #4e73df;
+  margin-bottom: 20px;
+}
+
+/* Menata tampilan tabel */
+.ant-table-thead > tr > th {
+  background-color: #4e73df;  /* Menambahkan warna latar belakang pada header tabel */
+  color: white;
+  font-weight: 600;
+}
+
+.ant-table-tbody > tr > td {
+  font-size: 14px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.ant-select-selector {
+  border-radius: 5px;
+  border: 1px solid #4e73df;  /* Warna border pada dropdown */
+}
+
+.ant-btn {
+  border-radius: 4px;  /* Membuat tombol lebih rounded */
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+/* Memberikan warna pada tombol Update */
+.ant-btn-primary {
+  background-color: #4e73df;
+  border-color: #4e73df;
+}
+
+.ant-btn-primary:hover {
+  background-color: #2e59d9;
+  border-color: #2e59d9;
+}
+
+/* Menambahkan warna pada tombol lainnya */
+.ant-btn-dangerous {
+  background-color: #e74a3b;
+  border-color: #e74a3b;
+}
+
+.ant-btn-dangerous:hover {
+  background-color: #c0392b;
+  border-color: #c0392b;
+}
+
+/* Styling untuk bagian table */
+.ant-table-pagination {
+  margin-top: 20px;
+}
+
+.ant-table {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
